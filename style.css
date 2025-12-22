@@ -10,9 +10,7 @@ body {font-family: "Roboto", sans-serif;
         display: flex;
         
         flex-direction: column;
-        justify-content: stretch;
-        align-items: stretch;
-        }
+    }
 
 .header {background-color: #1F2937;
     font-size: 24px;
@@ -32,10 +30,11 @@ body {font-family: "Roboto", sans-serif;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-right: 10px;}
+    margin-right: 30px;}
 
-.header-logo {padding: 15px;
+.header-logo {
                 font-size: 24px;
+                margin-left: 30px;
                 }
 
 .middle {display: flex;
@@ -48,7 +47,7 @@ body {font-family: "Roboto", sans-serif;
 
                 background-color: #1F2937;}
 
-.left-one {margin-left: 10px;}
+.left-one {margin-left: 30px;}
 
 .left-one-top {font-size: 48px;
                 color: #F9FAF8;
@@ -59,14 +58,20 @@ body {font-family: "Roboto", sans-serif;
 
 .left-one-button {font-size: 18px;
                   color: #E5E7EB;
-                    background-color: #3882F6;}
+                    background-color: #3882F6;
+                border-radius: 10px;}
 
 .right-one {background-color: gray;
             color: #E5E7EB;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 50%;}
+           
+            margin-right: 30px;
+        min-height: 200px;
+        min-width: 500px;
+    max-height: 200px;
+        max-width: 500px;}
 
 .section-two {display: flex;
               flex-direction: column;
@@ -84,14 +89,27 @@ body {font-family: "Roboto", sans-serif;
        color: #1F2937;
        font-weight: 900;
     }
+.blue-box { border-radius: 5%;
+            border-color: #3882F6;
+            border: 10px ;
+            padding: 15px;
+            width: 20px;
+            }
 
-.box-one {display: flex;}
+.box-one {display: flex;
+            flex-direction: column;
+        margin-left: 30px;}
+            
 
-.box-two {display: flex;}
+.box-two {display: flex;
+flex-direction: column;}
 
-.box-three {display: flex;}
+.box-three {display: flex;
+flex-direction: column;}
 
-.box-four {display: flex;}
+.box-four {display: flex;
+flex-direction: column;
+margin-right: 30px;}
 
 .section-three { background-color: #E5E7EB;
                  display: flex;
@@ -113,11 +131,11 @@ body {font-family: "Roboto", sans-serif;
 
 .blue-container {background-color: #3882F6;
                  display: flex;
-                /*flex-direction: column;*/}
+                }
 
-.left-four {}
+/*.left-four {}
 
-.right-four {}
+.right-four {}*/
 
 .bottom-four-button { background-color: #3882F6;
                         font-size: 18px;
