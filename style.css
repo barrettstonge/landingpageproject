@@ -212,6 +212,7 @@ font-size: 18px;}
             width: 125px;
             border-color: #F9FAF8;
             border-width: 2px ;
+            padding: 5px;
         }
 
 .footer {display: flex;
